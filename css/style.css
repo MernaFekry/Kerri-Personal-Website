@@ -12,7 +12,7 @@
     border: 0.5px solid lightgray;
     /* transition: .5s ease; */
 }
-/* .ourSectionBodyItem h3{
+ .ourSectionBodyItem h3{
     position: relative;
     padding-bottom: 10px;
 }
@@ -23,9 +23,10 @@
     left: 50%;
     transform: translateX(-50%);
     width: 70px;
-    height: 2px;
+    height: 2.5px;
     background-color: var(--primaryColor);
 }
+/*
 .ourSectionBodyItem h3:hover .ourSectionBodyItem h3::after{
     width: 100px;
 } */
