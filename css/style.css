@@ -1,0 +1,35 @@
+:root{
+    --primaryColor:#E65F78;
+    --backgroundColor1:#F8F9FA;
+}
+
+/* Our Services Section */
+
+
+.ourSection{
+    background-color:var(--backgroundColor1);
+}
+.ourSectionBodyItem{
+    border: 0.5px solid lightgray;
+    /* transition: .5s ease; */
+}
+/* .ourSectionBodyItem h3{
+    position: relative;
+    padding-bottom: 10px;
+}
+.ourSectionBodyItem h3::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 2px;
+    background-color: var(--primaryColor);
+}
+.ourSectionBodyItem h3:hover .ourSectionBodyItem h3::after{
+    width: 100px;
+} */
+.ourSectionBodyItem i{
+    color: var(--primaryColor);
+}
