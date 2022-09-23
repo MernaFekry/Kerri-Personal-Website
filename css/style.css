@@ -2,7 +2,9 @@
     --primaryColor:#E65F78;
     --backgroundColor1:#F8F9FA;
     --footerColor:#242424;
-    --footerIconBackgroundColor:rgba(241, 241, 241, 0.08);;
+    --footerIconBackgroundColor:rgba(241, 241, 241, 0.08);
+    --readMoreColor:#6c757d;
+
 }
 
 /* Common */
@@ -15,6 +17,9 @@ ul{
 
 
 
+
+
+/* ------------------------------------------------------------------------ */
 /* About Me Section */
 .aboutsectionItem img{
     width: 100%;
@@ -24,19 +29,23 @@ ul{
 }
 
 
+
+
+
+/* ------------------------------------------------------------------------ */
 /* Our Services Section */
-.ourSection{
+.servicesSection{
     background-color:var(--backgroundColor1);
 }
-.ourSectionBodyItem{
-    border: 0.5px solid lightgray;
+.servicesSectionBodyItem{
+    border: 1px solid #e8e8e8;
     /* transition: .5s ease; */
 }
- .ourSectionBodyItem h3{
+ .servicesSectionBodyItem h3{
     position: relative;
     padding-bottom: 10px;
 }
-.ourSectionBodyItem h3::after{
+.servicesSectionBodyItem h3::after{
     content: " ";
     position: absolute;
     bottom: 0;
@@ -46,16 +55,40 @@ ul{
     height: 2.5px;
     background-color: var(--primaryColor);
 }
-/*
-.ourSectionBodyItem h3:hover .ourSectionBodyItem h3::after{
-    width: 100px;
-} */
-.ourSectionBodyItem i{
+.servicesSectionBodyItem i{
     color: var(--primaryColor);
 }
 
 
 
+
+
+/* ------------------------------------------------------------------------ */
+/* Available Section */
+.availableSection .column button{
+    background-color: var(--primaryColor);
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Our Blog Section */
+.blogSection{
+    background-color: var(--backgroundColor1);
+}
+.blogSectioncards .card .readmore,.blogSectioncards .card .date{
+    color: var(--readMoreColor);
+}
+.blogSectioncards .card img{
+    border-radius: 7%;
+}
+.blogSectioncards .card{
+    border-radius: 0px;
+    border: white;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
 /* Contact Us Section */
 .contactSectioniconsItem i{
     color: var(--primaryColor);
@@ -70,6 +103,9 @@ ul{
 
 
 
+
+
+/* ------------------------------------------------------------------------ */
 /* Footer Section */
 .footerSection{
     background-color: var(--footerColor);
